@@ -1,0 +1,68 @@
+""" endepoint disponivel """
+
+# /RegistraLivro       [POST]
+
+#  /consultar          [POST]
+ 
+# /livroDisponivel     [GET]
+
+# "/login              [POST]
+
+
+
+
+
+ # /RegistraLivro    METODO [POST] 
+" endpoint  para  fazer  cadastramentos  dos  livros"
+ 
+'   como  usar  url  base '
+"http://127.0.0.1:5000/RegistraLivro"
+
+parametros={ 'livro':"nome do  para  cadastramento"}
+
+
+
+# /consultar    METODO [POST]
+"endpoint  para  pesquisar  um  livro  registrado"
+
+' url  base '
+
+"http://127.0.0.1:5000/consultar"
+  
+parametros={"livro":" nome  do   livro  para  se esta  disponivel"}
+
+#  /livroDisponivel     METHODO  [GET] 
+
+'endpoint para  mostrar  todos  livros  disponivel'
+
+"http://127.0.0.1:5000 /livroDisponivel"
+
+" não  é  exigido  um  parametro"
+
+
+#/login
+
+' endpoint para  login'
+
+"http://127.0.0.1:5000 /login"
+
+
+parametros={
+    'senha':'coloca aqui a senha senha  do  usuario',
+    
+    'email':'  coloca  aqui o  email'
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
